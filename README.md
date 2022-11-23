@@ -1,5 +1,6 @@
 # Numerical-Method-Analysis
-Ordinary Diferential Equation solving through Numerical Methods\n
+Ordinary Diferential Equation solving through Numerical Methods
+##
 Matlab/Octave algorithm for different methods:
  - Euler Method
    - Explict;
