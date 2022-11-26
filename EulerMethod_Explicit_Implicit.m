@@ -1,15 +1,15 @@
+######### Método de Euler Explícito ###########
+
 clear
 close all
 clc
 
-######### M�todo de Euler Expl�cito ###########
-
-## Par�metros do Modelo ##
+## Parâmetros do Modelo ##
 Vco = 5;
 R = 200000;
 C = 10e-6;
 
-## Par�metros da Simula��o ##
+## Parâmetros da Simulação ##
 Dt = 0.8;
 Vca(1) = Vco;
 Vcap(1) = Vco;
@@ -26,7 +26,7 @@ na = size(t,2); #vetor coluna
 
 ######################################################******
 
-########## k s�o n� de amostras
+########## k são n° de amostras
 
 for k = 1:na-1 ##colocar 1:4******
 
@@ -44,14 +44,11 @@ Vca;
 #t = 0:Dt:k; #habilitar******
 plot(t,Vc, 'd', 'linewidth',2)
 title('Tensão Capacitor VS Tempo')
-xlabel('N� Amostras')
-ylabel('Tens�o (V)')
+xlabel('N° Amostras')
+ylabel('Tensão (V)')
 grid on
 hold on
 
 plot(t, Vcap, 'gd', 'linewidth', 2)
 plot(t, Vca, 'rd', 'linewidth', 2)
 legend('Euler Explícito', 'Euler Implícito', 'Solução Analítica')
-
-
-
