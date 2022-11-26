@@ -1,5 +1,5 @@
-%% lista 2 - Simulação de Sistemas %%
-%%%  Método Runge-Kutta 2a Ordem - Ralston
+%% Simulação de Sistemas %%
+%% Método Runge-Kutta 2a Ordem - Ralston
 clear
 close all
 clc
