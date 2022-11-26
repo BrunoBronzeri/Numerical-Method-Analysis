@@ -10,3 +10,10 @@ Matlab/Octave algorithm for different methods:
    - Heun
    - Ralston
  - Runge-Kutta 4th order
+ 
+ 
+# Needs Control Package
+ on Command Window, type:
+ pkg list
+ pkg install -forge control
+ pkg load control
