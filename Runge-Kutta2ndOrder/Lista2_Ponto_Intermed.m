@@ -1,4 +1,4 @@
-%% lista 2 - Simulação de Sistemas %%
+%% Simulação de Sistemas %%
 %%%  Método Runge-Kutta 2a Ordem - Ponto Intermediário
 clear
 close all
@@ -42,4 +42,3 @@ for k = 1:na
 end
 iL
 Vc
-
