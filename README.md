@@ -13,7 +13,7 @@ Matlab/Octave algorithm for different methods:
  
  
 # Needs Control Package
-  - on Command Window, type:<br/>
+  - On Command Window, type:<br/>
  pkg list<br/>
  pkg install -forge control<br/>
  pkg load control<br/>
